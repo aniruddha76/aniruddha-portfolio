@@ -1,4 +1,5 @@
 import './App.css'
+import MyCodeBlock from './assets/components/Code'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
       
       <div id='about'>
         <h1>about section</h1>
+        <MyCodeBlock />
       </div>
       
       <div id='contact'>
