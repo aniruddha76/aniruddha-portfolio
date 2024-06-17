@@ -39,8 +39,12 @@ function App() {
       </div>
       
       <div id='about'>
-        <h1>about section</h1>
-        <MyCodeBlock />
+        <div className='p-4' style={{backgroundColor: '#14121c'}}>
+          <h1 className='text-white'>About/></h1>
+          <div className='px-60'>
+            <MyCodeBlock />
+          </div>
+        </div>
       </div>
       
       <div id='contact'>
