@@ -1,29 +1,21 @@
-.shadow-div {
-    width: 80rem;
-    height: 60rem;
-    background-image: linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%);
-    position: relative;
+.blob {
+  position: absolute;
+  right: 0%;
+  top: 0;
+  background-color: #cf59e6;
+  width: 600px;
+  height: 100vh;
+  filter: blur(150px);
+  opacity: .3;
+  border-radius: 50%;
+  animation: 1s linear infinite alternate-reverse breath;
+}
+
+@keyframes breath {
+  0% {
+    transform: scale(1);
   }
-  
-  .shadow-div::before,
-  .shadow-div::after {
-    content: '';
-    position: absolute;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  100% {
+    transform: scale(0.8);
   }
-  
-  .shadow-div::before {
-    top: -4px;
-    left: 0;
-    right: 0;
-    height: 8px;
-  }
-  
-  .shadow-div::after {
-    top: 0;
-    bottom: 0;
-    left: -4px;
-    width: 8px;
-    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5), 4px 0 8px rgba(0, 0, 0, 0.5);
-  }
-  
+}

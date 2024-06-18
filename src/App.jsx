@@ -5,9 +5,9 @@ function App() {
 
   return (
     <div style={{ backgroundColor: "transparent" }}>
-      <nav id="main-nav" class="p-4 flex justify-between absolute top-0 left-0 w-full" style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif", fontSize: "22px", fontWeight: 700 }}>
+      <nav id="main-nav" class="p-4 flex justify-between absolute top-0 left-0 w-full" style={{ zIndex: 999, fontFamily: "Roboto Condensed,Lato,Arial,sans-serif", fontSize: "22px", fontWeight: 700 }}>
 
-        <div className="text-white">Aniruddha Thakur</div>
+        <div className="text-white"></div>
 
         <ul className='flex flex-row text-white'>
           <li className='px-2'><a href='#start'>Start<span> /></span></a></li>
@@ -20,10 +20,11 @@ function App() {
       </nav>
 
       <header id="start">
-        <div className="b-center bg-no-repeat bg-cover min-h-dvh" style={{ backgroundImage: "url('./src/assets/images/bg.87635d9.webp')" }}>
-          <div className='min-h-dvh px-64' style={{ paddingTop: "10rem", paddingBottom: 0 }}>
+        <div className="b-center bg-no-repeat bg-cover min-h-dvh" style={{ backgroundColor: "#11111b" }}>
+          <div className='blob' style={{ height: '500px', width: '600px' }}></div>
+          <div className='min-h-dvh px-64' style={{ paddingTop: "6rem", paddingBottom: 0 }}>
             <div className='text-white text-4xl' style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif", }}>
-              <h1>Hi, My Name is</h1>
+              <h1>Hey there!, I'm</h1>
               <div className='py-5' style={{ fontSize: '5rem', fontWeight: 700 }}>
                 Aniruddha Thakur
               </div>
@@ -32,14 +33,18 @@ function App() {
               </div>
 
               <div className='text-2xl py-10'>
-                Web Developer with experience of Digital Concept Arts, Frontend Web
-                Designs. I Love fun Web UI, collaboration and making products.<br />
+                I'm a web developer who loves crafting digital magic through
+                vibrant concept art and sleek frontend designs. I Love fun Web UI, collaboration and turning idea's into reality.<br />
                 <br />
-                I value simple content structure, clean design patterns, and
-                thoughtful interactions.
+                Simple content, clean design, and thoughtful interactions are my secret ingredients.
+                Let’s build something amazing together!
               </div>
-              
+
             </div>
+
+            <div>
+            <button><a href="mailto:aniruddhathakur76@gmail.com">Let's Talk!</a></button>
+          </div>
           </div>
         </div>
       </header>
@@ -133,7 +138,7 @@ function App() {
             transform: 'translateX(-50%)'
           }}>TECHSTACK</section>
 
-          <div className='flex justify-center' style={{ paddingTop: '145px' }}>
+          <div className='flex justify-center' style={{ paddingTop: '143px' }}>
             <div style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", width: "60rem", height: "50rem", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}></div>
           </div>
 
