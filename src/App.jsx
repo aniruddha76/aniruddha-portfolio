@@ -43,7 +43,9 @@ function App() {
             </div>
 
             <div>
-            <button><a href="mailto:aniruddhathakur76@gmail.com">Let's Talk!</a></button>
+              <button className='button-50 animated-button' style={{fontFamily: "Roboto Condensed,Lato,Arial,sans-serif"}}>
+                <a href="mailto:aniruddhathakur76@gmail.com">Let's Talk!</a>
+              </button>
           </div>
           </div>
         </div>

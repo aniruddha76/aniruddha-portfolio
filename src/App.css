@@ -19,3 +19,21 @@
     transform: scale(0.8);
   }
 }
+
+.animated-button {
+  background-color: rgba(138,43,226,1);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 70px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.animated-button:hover {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #cf59e6;
+}
