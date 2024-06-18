@@ -12,7 +12,7 @@ function App() {
         <ul className='flex flex-row text-white'>
           <li className='px-2'><a href='#start'>Start<span> /></span></a></li>
           <li className='px-2'><a href='#work'>Projects<span> /></span></a></li>
-          <li className='px-2'><a href='#education'>Education<span> /></span></a></li>
+          <li className='px-2'><a href='#tech-stack'>Tech Stack<span> /></span></a></li>
           <li className='px-2'><a href='#about'>About<span> /></span></a></li>
           <li className='px-2'><a href='#contact'>Contact<span> /></span></a></li>
         </ul>
@@ -32,33 +32,73 @@ function App() {
       </header>
 
       <div style={{ backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
-        <div id='work'>
 
+        <section style={{
+          color: '#221d35',
+          content: '"PROJECTS"',
+          fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
+          fontSize: '140px',
+          fontWeight: 700,
+          paddingLeft: "97%",
+          position: 'absolute',
+          transform: 'translateX(-30%)'
+        }}>PROJECTS</section>
+
+        <div id='work' className='p-10'>
+
+          <div className="relative flex">
+            <div className="relative px-14">
+              <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" />
+              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
+                <p>Studios<br />Repo</p>
+                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+              </div>
+            </div>
+          </div>
+
+          <div className="relative flex py-14 justify-end">
+            <div className="relative px-14">
+
+              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="h-52 w-99 brightness-75" />
+              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
+                <p>Insta<br />Downloader</p>
+                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+              </div>
+            </div>
+
+            <div className="relative px-14">
+
+              <img src="./src/assets/images/express-share.jpg" alt="studiosrepo" className="h-52 w-52 brightness-75" />
+              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
+                <p>Express<br />Share</p>
+                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id='tech-stack'>
           <section style={{
             color: '#221d35',
-            content: '"PROJECTS"',
+            content: '"TEHSTACK"',
             fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
             fontSize: '140px',
             fontWeight: 700,
             paddingLeft: "97%",
             position: 'absolute',
-            transform: 'translateX(-30%)'
-          }}>PROJECTS</section>
+            transform: 'translateX(-50%)'
+          }}>TECHSTACK</section>
 
-          <card>
-            hiii
-          </card>
-
-        </div>
-
-        <div id='education'>
-          <h1>education section</h1>
+          <div>
+            
+          </div>
         </div>
       </div>
 
       <div id='about'>
         <div className='p-4' style={{ backgroundColor: '#14121c' }}>
-        <section style={{
+          {/* <section style={{
             color: '#221d35',
             content: '"ABOUTME"',
             fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
@@ -67,7 +107,7 @@ function App() {
             paddingLeft: "30%",
             position: 'absolute',
             transform: 'translateX(-30%)'
-          }}>ABOUTME</section>
+          }}>ABOUTME</section> */}
           <div className='px-60'>
             <MyCodeBlock />
           </div>
