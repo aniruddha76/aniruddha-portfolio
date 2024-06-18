@@ -47,8 +47,8 @@ function App() {
         <div id='work' className='p-10'>
 
           <div className="relative flex">
-            <div className="relative px-14">
-              <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" />
+            <div className="relative px-14" >
+              <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)"}} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Studios<br />Repo</p>
                 <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
@@ -57,24 +57,54 @@ function App() {
           </div>
 
           <div className="relative flex py-14 justify-end">
-            <div className="relative px-14">
-
-              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="h-52 w-99 brightness-75" />
+            <div className="relative px-14" style={{ paddingRight: "25rem" }}>
+              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="h-52 w-99 brightness-75" style={{boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)"}} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Insta<br />Downloader</p>
                 <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
               </div>
             </div>
 
-            <div className="relative px-14">
-
-              <img src="./src/assets/images/express-share.jpg" alt="studiosrepo" className="h-52 w-52 brightness-75" />
+            <div className="absolute px-14" style={{ top: 0, zIndex: 2 }}>
+              <img src="./src/assets/images/express-share.jpg" alt="studiosrepo" className="h-52 w-52 brightness-75" style={{boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)"}} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Express<br />Share</p>
                 <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
               </div>
             </div>
           </div>
+
+          <div className="relative flex py-3 justify-between" style={{ paddingBottom: '3rem' }}>
+            <div className="relative flex">
+              <div className="relative px-14">
+                <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)"}} />
+                <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
+                  <p>Twine<br />Video Calling</p>
+                  <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                </div>
+              </div>
+            </div>
+
+            <div className="relative flex">
+              <div className="relative px-14" style={{ bottom: 0, zIndex: 2 }}>
+                <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)"}} />
+                <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
+                  <p>BeatBox<br />Discord Bot</p>
+                  <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='px-40 py-5'>
+          <div className="relative px-14" style={{paddingRight: "25rem"}}>
+              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="h-52 w-99 brightness-75" style={{boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)"}} />
+              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
+                <p>Blockify<br />Chrome Extension</p>
+                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+              </div>
+            </div>
+            </div>
 
         </div>
 
@@ -85,14 +115,15 @@ function App() {
             fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
             fontSize: '140px',
             fontWeight: 700,
-            paddingLeft: "97%",
+            paddingLeft: "100%",
             position: 'absolute',
             transform: 'translateX(-50%)'
           }}>TECHSTACK</section>
 
-          <div>
-            
+          <div className='flex justify-center' style={{ paddingTop: '145px' }}>
+            <div style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", width: "60rem", height: "50rem", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}></div>
           </div>
+
         </div>
       </div>
 
