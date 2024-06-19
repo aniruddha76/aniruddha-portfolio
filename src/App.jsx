@@ -226,22 +226,22 @@ function App() {
         </div>
       </div>
 
-      <div id='about'>
+      <div id='about' style={{height: "auto"}}>
         <section style={{
           color: '#221d35',
           content: '"ABOUTME"',
           fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
           fontSize: '140px',
           fontWeight: 700,
-          paddingLeft: "30%",
+          paddingRight: "28%",
           position: 'absolute',
-          transform: 'translateX(-40%)'
+          transform: 'translateX(-40%) rotate(-90deg)'
         }}>ABOUTME</section>
 
-        <div className='justify-center' style={{paddingTop: '9rem', backgroundColor: '#14121c', zIndex: 1 }}>
+        <div className='justify-center min-h-dvh' style={{paddingTop: '5rem',backgroundColor: '#14121c', zIndex: 1 }}>
           <div className='flex justify-center'>
-            <div id='border-class' className='p-6' style={{ zIndex: 1 }}>
-              <div className='flex'>
+            <div className='p-6' style={{ zIndex: 1 }}>
+              <div id='border-class' className='flex p-4'>
                 <div style={{ width: '290px', zIndex: 4 }}>
                   <img id='profile' src="./src/assets/images/profile/aniruddha.jpg" alt="aniruddha-thakur-profile" />
                 </div>
@@ -261,7 +261,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='download-resume' className='py-4 flex justify-end' >
+              <div id='download-resume' className='py-1 flex justify-end' >
                 <button class="resume-btn" id="resume-btn" onClick={function() {window.open('https://drive.google.com/file/d/1KXSYTf9NOupshEV5N9_UjJTxIq_SwdJI/view?usp=sharing', '_blank')}}> 
                   <div className="sign">
                     <svg viewBox="0 0 640 512">
@@ -277,8 +277,8 @@ function App() {
         </div>
       </div>
 
-      <div id='contact'>
-        <h1>contact section</h1>
+      <div id='contact' className='min-h-dvh flex justify-center' style={{backgroundColor: "#0c0a12"}}>
+          
       </div>
     </div>
   )

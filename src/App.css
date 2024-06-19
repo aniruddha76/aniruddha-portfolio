@@ -25,15 +25,32 @@ html{
   align-content: center;
 }
 
+#logo-name{
+  display: none;
+  padding: 0.3rem;
+  border: 1px solid;
+  text-align: center;
+  width: 60px;
+}
+
 #image-container:hover{
   transition: .3s ease;
   box-shadow: 0 0 50px;
   transform: translateY(-2px) translateX(-2px);
+  #logo-name{
+    display: block ;
+  }
 }
 
 #tech-stack{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+#border-class{
+  border: 2px solid;
+  border-color: #8000ff;
+  border-radius: 8px;
 }
 
 .blob {
