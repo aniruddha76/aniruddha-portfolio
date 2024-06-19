@@ -1,3 +1,18 @@
+#image-container{
+  border: 1px solid;
+    --image-container-first-color: #383858;
+    --image-container-second-color: rgba(27, 27, 40, 0);
+    --image-container-border-color: #292929;
+  background-image: linear-gradient(to bottom right, var(--image-container-first-color), var(--image-container-second-color));
+  border-color: var(--image-container-border-color);
+  border-radius: 20px;
+}
+
+#tech-stack{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .blob {
   position: absolute;
   right: 0%;

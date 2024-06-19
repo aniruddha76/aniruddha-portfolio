@@ -142,9 +142,83 @@ function App() {
           }}>TECHSTACK</section>
 
           <div className='flex justify-center' style={{ paddingTop: '143px' }}>
-            <div className='flex' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", width: "60rem", height: "50rem", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
-              <div>
-                
+            <div id='tech-stack' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", width: "60rem", height: "auto", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
+              <div id='row-1' className='flex justify-evenly py-14'>
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/html.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/css.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/js.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/bootstraplogo.png" />
+                </div>
+              </div>
+
+              <div id='rwo-2' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/reactlogo.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/Node.js_logo.svg" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/typescript.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/tailwind.png" />
+                </div>
+              </div>
+
+              <div id='rwo-3' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/express.jpeg" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/electronlogo.svg" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/git.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/githublogo.png" />
+                </div>
+              </div>
+
+              <div id='rwo-4' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/discord.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/vercel.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/wordpress.png" />
+                </div>
+
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/figma.png" />
+                </div>
+              </div>
+
+              <div id='rwo-5' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+                <div id='image-container' className='h-40 w-40 p-5'>
+                  <img src="./src/assets/images/logo/canvalogo.png" />
+                </div>
               </div>
             </div>
           </div>
