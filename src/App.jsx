@@ -42,11 +42,12 @@ function App() {
 
             </div>
 
-            <div>
-              <button className='button-50 animated-button' style={{fontFamily: "Roboto Condensed,Lato,Arial,sans-serif"}}>
-                <a href="mailto:aniruddhathakur76@gmail.com">Let's Talk!</a>
+            <div style={{ fontWeight: 500 }}>
+              <button class="letsTalkBtn"><a href="mailto:aniruddhathakur76@gmail.com">
+                <p class="letsTalkBtn-text" >Let's Talk!</p>
+                <span class="letsTalkBtn-BG"></span></a>
               </button>
-          </div>
+            </div>
           </div>
         </div>
       </header>
@@ -141,7 +142,11 @@ function App() {
           }}>TECHSTACK</section>
 
           <div className='flex justify-center' style={{ paddingTop: '143px' }}>
-            <div style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", width: "60rem", height: "50rem", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}></div>
+            <div className='flex' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", width: "60rem", height: "50rem", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
+              <div>
+                
+              </div>
+            </div>
           </div>
 
         </div>
