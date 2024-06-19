@@ -14,8 +14,6 @@ html{
   background-color: #8000ff;
 }
 
-
-
 #image-container{
   border: 1px solid;
     --image-container-first-color: #383858;
@@ -58,6 +56,47 @@ html{
   100% {
     transform: scale(0.6);
   }
+}
+
+.resume-btn {
+  color: white;
+  margin-top: 10px;
+  justify-content: flex-start;
+  height: 45px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .199);
+  background: linear-gradient(82.3deg, #965de9 10.8%, #6358ee 94.3%);
+  position: relative;
+  align-items: center;
+  transition-duration: .3s;
+  display: flex;
+  width: 20%;
+  transition-duration: .3s;
+  padding-left: 10px
+}
+
+.sign{
+  fill: white;
+  align-items: center;
+  transition-duration: .3s;
+  display: flex;
+  width: 28%;
+  transition-duration: .3s;
+  padding-left: 20px
+}
+
+.text{
+  padding-left: 10px
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px) translateX(-2px);
+}
+
+.resume-btn:active {
+  transform: translate(2px ,2px)
 }
 
 .letsTalkBtn {
