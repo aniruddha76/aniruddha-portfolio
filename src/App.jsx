@@ -161,7 +161,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-2' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+              <div id='rwo-2' className='flex justify-evenly' style={{ paddingBottom: '3.5rem' }}>
                 <div id='image-container' className='h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/reactlogo.png" />
                 </div>
@@ -179,7 +179,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-3' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+              <div id='rwo-3' className='flex justify-evenly' style={{ paddingBottom: '3.5rem' }}>
                 <div id='image-container' className='h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/express.jpeg" />
                 </div>
@@ -197,7 +197,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-4' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+              <div id='rwo-4' className='flex justify-evenly' style={{ paddingBottom: '3.5rem' }}>
                 <div id='image-container' className='h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/discord.png" />
                 </div>
@@ -215,7 +215,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-5' className='flex justify-evenly' style={{paddingBottom: '3.5rem'}}>
+              <div id='rwo-5' className='flex justify-evenly' style={{ paddingBottom: '3.5rem' }}>
                 <div id='image-container' className='h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/canvalogo.png" />
                 </div>
@@ -227,19 +227,36 @@ function App() {
       </div>
 
       <div id='about'>
-        <div className='p-4' style={{ backgroundColor: '#14121c' }}>
-          {/* <section style={{
-            color: '#221d35',
-            content: '"ABOUTME"',
-            fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
-            fontSize: '140px',
-            fontWeight: 700,
-            paddingLeft: "30%",
-            position: 'absolute',
-            transform: 'translateX(-30%)'
-          }}>ABOUTME</section> */}
-          <div className='px-60'>
-            <MyCodeBlock />
+        <section style={{
+          color: '#221d35',
+          content: '"ABOUTME"',
+          fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
+          fontSize: '140px',
+          fontWeight: 700,
+          paddingLeft: "30%",
+          position: 'absolute',
+          transform: 'translateX(-40%)'
+        }}>ABOUTME</section>
+
+        <div className='p-36 flex justify-center' style={{ backgroundColor: '#14121c', zIndex:1}}>
+          <div id='border-class' className='flex p-6' style={{zIndex: 1}}>
+          <div style={{ width: '290px', zIndex: 4 }}>
+            <img id='profile' src="./src/assets/images/profile/aniruddha.jpg" alt="aniruddha-thakur-profile" />
+          </div>
+
+          <div className='text-white text-xl' style={{zIndex: 4, paddingLeft: '3rem', width: '500px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 400}}>
+            <p>
+              Hello! I'm Aniruddha Thakur, a passionate web developer and designer who thrives on creating stunning and intuitive frontend designs.  
+              </p><br />
+              <p>
+              My journey in the digital world began with a fascination for how design and code can come together to create seamless user experiences.
+              </p>
+              <br />
+              <p>
+              As a web developer, I meticulously craft responsive and efficient code that brings my designs to life. 
+              My goal is to make every website not only look fantastic but also function flawlessly.
+            </p>
+          </div>
           </div>
         </div>
       </div>
