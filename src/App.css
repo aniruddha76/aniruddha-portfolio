@@ -179,8 +179,8 @@ html{
 }
 
 .icons{
-  width: 4.8%;
-  padding: 18px;
+  width: 4.5%;
+  padding: 16px;
   border: 2px solid white;
   border-radius: 50%;
   transition: .3s;
@@ -189,5 +189,36 @@ html{
 
 .icons:hover{
   transform: translateY(-15px);
-  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.instagram:hover {
+  background-color: #ee2a7b;
+  box-shadow: 0 4px 20px rgba(238, 42, 123, 0.6);
+}
+
+.linkedin:hover {
+  background-color: #0a66c2;
+  box-shadow: 0 4px 20px rgba(10, 102, 194, 0.6);
+}
+
+.github:hover {
+  background-color: #24292e;
+  box-shadow: 0 4px 20px rgba(36, 41, 46, 0.6);
+}
+
+.discord:hover {
+  background-color: #5865F2;
+  box-shadow: 0 4px 20px rgba(88, 101, 242, 0.6);
+}
+
+.email:hover {
+  background-color: #cf59e6;
+  box-shadow: 0 4px 20px rgba(207, 89, 230, 0.6);
+}
+
+.footer{
+  font-family: Roboto Condensed,Lato,Arial,sans-serif;
+  background-color: black; 
+  color: #494949;
+  font-weight: 500;
 }

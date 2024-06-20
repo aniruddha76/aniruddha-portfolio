@@ -10,11 +10,11 @@ function App() {
         <div className="text-white"></div>
 
         <ul className='flex flex-row text-white'>
-          <li className='px-2'><a href='#start'>Start<span className='nav-span'> /></span></a></li>
-          <li className='px-2'><a href='#work'>Projects<span className='nav-span'> /></span></a></li>
-          <li className='px-2'><a href='#tech-stack'>Tech Stack<span className='nav-span'> /></span></a></li>
-          <li className='px-2'><a href='#about'>About<span className='nav-span'> /></span></a></li>
-          <li className='px-2'><a href='#contact'>Contact<span className='nav-span'> /></span></a></li>
+          <li className='px-2'><a href='#start'>Start<span className='nav-span'> /&gt;</span></a></li>
+          <li className='px-2'><a href='#work'>Projects<span className='nav-span'> /&gt;</span></a></li>
+          <li className='px-2'><a href='#tech-stack'>Tech Stack<span className='nav-span'> /&gt;</span></a></li>
+          <li className='px-2'><a href='#about'>About<span className='nav-span'> /&gt;</span></a></li>
+          <li className='px-2'><a href='#contact'>Contact<span className='nav-span'> /&gt;</span></a></li>
         </ul>
 
       </nav>
@@ -23,7 +23,7 @@ function App() {
         <div className="b-center bg-no-repeat bg-cover min-h-dvh" style={{ backgroundColor: "#11111b" }}>
           <div className='blob' style={{ height: '500px', width: '600px' }}></div>
           <div className='min-h-dvh px-64' style={{ paddingTop: "6rem", paddingBottom: 0 }}>
-            <div className='text-white text-4xl' style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif", }}>
+            <div className='text-white text-4xl' style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif" }}>
               <h1>Hey there!, I'm</h1>
               <div className='py-5' style={{ fontSize: '5rem', fontWeight: 700 }}>
                 Aniruddha Thakur
@@ -277,10 +277,10 @@ function App() {
         </div>
       </div>
 
-      <div id='contact' className='min-h-dvh' style={{backgroundColor: "#0c0a12"}}>
+      <div id='contact' className='min-h-dvh flex flex-col justify-between' style={{backgroundColor: "#0c0a12"}}>
           <section style={{
             color: '#221d35',
-            content: '"TEHSTACK"',
+            content: '"CONTACT"',
             fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
             fontSize: '140px',
             fontWeight: 700,
@@ -289,39 +289,35 @@ function App() {
             transform: 'translateX(-50%)'
           }}>CONTACT</section>
 
-          <div id='socials' className='flex justify-center'>
-            <div className='py-10 flex justify-center' style={{zIndex: 1,gap: "30px"}}>
+          <div id='socials' className='flex flex-col justify-end'>
+            <div className='py-28 flex justify-center' style={{zIndex: 1,gap: "30px"}}>
               
-              <div className='icons' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
+              <div className='icons instagram' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
                   <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
               </div>
 
-              <div className='icons'>
-                <a href="https://www.instagram.com/aniiruddhaa_/">
-                  <img src="./src/assets/images/socials/linkedin.png" alt="" />
-                </a>
+              <div className='icons linkedin' onClick={() => window.open("https://www.linkedin.com/in/aniruddha-thakur-b36482259/")}>
+                  <img src="./src/assets/images/socials/linkedin.png" alt="ani-linkedin" />
               </div>
 
-              <div className='icons'>
-                <a href="https://www.instagram.com/aniiruddhaa_/">
-                  <img src="./src/assets/images/socials/github.png" alt="" />
-                </a>
+              <div className='icons github' onClick={() => window.open("https://github.com/aniruddha76")}>
+                  <img src="./src/assets/images/socials/github.png" alt="ani-github" />
               </div>
 
-              <div className='icons'>
-                <a href="https://www.instagram.com/aniiruddhaa_/">
-                  <img src="./src/assets/images/socials/email.png" alt="" />
-                </a>
+              <div className='icons discord' onClick={() => window.open("https://discordapp.com/users/raptor1570")}>
+                  <img src="./src/assets/images/socials/discord.png" alt="ani-discord" />
               </div>
 
-              <div className='icons'>
-                <a href="https://www.instagram.com/aniiruddhaa_/">
-                  <img src="./src/assets/images/socials/discord.png" alt="" />
-                </a>
+              <div className='icons email' onClick={() => open('aniruddhathakur76@gmail.com')}>
+                  <img src="./src/assets/images/socials/email.png" alt="ani-email" />
               </div>
 
             </div>
           </div>
+          <div className='footer h-24 flex justify-center items-center w-full'>
+              <p>Made with &lt;/&gt; by Aniruddha Thakur &copy; TwentyTwentyFour</p>
+          </div>
+
       </div>
     </div>
   )
