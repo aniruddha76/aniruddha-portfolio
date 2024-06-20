@@ -172,7 +172,7 @@ function App() {
                 </div>
 
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/Node.js_logo.svg" />
+                  <img src="./src/assets/images/logo/nodejs.png" />
                   <span className='tooltiptext'>NODE JS</span>
                 </div>
 
@@ -212,7 +212,7 @@ function App() {
               <div id='rwo-4' className='flex justify-evenly' style={{ paddingBottom: '3.5rem' }}>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/discord.png" />
-                  <span className='tooltiptext'>DISCORD</span>
+                  <span className='tooltiptext'>DISCORD JS</span>
                 </div>
 
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
@@ -243,7 +243,7 @@ function App() {
         </div>
       </div>
 
-      <div id='about' style={{height: "auto"}}>
+      <div id='about' style={{ height: "auto" }}>
         <section style={{
           color: '#221d35',
           content: '"ABOUTME"',
@@ -255,7 +255,7 @@ function App() {
           transform: 'translateX(-40%) rotate(-90deg)'
         }}>ABOUTME</section>
 
-        <div className='justify-center min-h-dvh' style={{paddingTop: '5rem',backgroundColor: '#14121c', zIndex: 1 }}>
+        <div className='justify-center min-h-dvh' style={{ paddingTop: '5rem', backgroundColor: '#14121c', zIndex: 1 }}>
           <div className='flex justify-center'>
             <div className='p-6' style={{ zIndex: 1 }}>
               <div id='border-class' className='flex p-4'>
@@ -279,7 +279,7 @@ function App() {
               </div>
 
               <div id='download-resume' className='py-1 flex justify-end' >
-                <button class="resume-btn" id="resume-btn" onClick={function() {window.open('https://drive.google.com/file/d/1KXSYTf9NOupshEV5N9_UjJTxIq_SwdJI/view?usp=sharing', '_blank')}}> 
+                <button class="resume-btn" id="resume-btn" onClick={function () { window.open('https://drive.google.com/file/d/1KXSYTf9NOupshEV5N9_UjJTxIq_SwdJI/view?usp=sharing', '_blank') }}>
                   <div className="sign">
                     <svg viewBox="0 0 640 512">
                       <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"></path>
@@ -294,46 +294,47 @@ function App() {
         </div>
       </div>
 
-      <div id='contact' className='min-h-dvh flex flex-col justify-between' style={{backgroundColor: "#0c0a12"}}>
-          <section style={{
-            color: '#221d35',
-            content: '"CONTACT"',
-            fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
-            fontSize: '140px',
-            fontWeight: 700,
-            paddingLeft: "155%",
-            position: 'absolute',
-            transform: 'translateX(-50%)'
-          }}>CONTACT</section>
+      <div id='contact' className='min-h-dvh flex flex-col justify-between' style={{ backgroundColor: "#0c0a12" }}>
+        <section style={{
+          color: '#221d35',
+          content: '"CONTACT"',
+          fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
+          fontSize: '140px',
+          fontWeight: 700,
+          paddingLeft: "155%",
+          position: 'absolute',
+          transform: 'translateX(-50%)'
+        }}>CONTACT</section>
 
-          <div id='socials' className='flex flex-col justify-end'>
-            <div className='py-28 flex justify-center' style={{zIndex: 1,gap: "30px"}}>
-              
-              <div className='icons instagram' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
-                  <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
-              </div>
+        <div id='socials' className='flex flex-col justify-end'>
+          <div className='flex justify-center' style={{ paddingTop: "4rem", zIndex: 1, gap: "30px" }}>
 
-              <div className='icons linkedin' onClick={() => window.open("https://www.linkedin.com/in/aniruddha-thakur-b36482259/")}>
-                  <img src="./src/assets/images/socials/linkedin.png" alt="ani-linkedin" />
-              </div>
-
-              <div className='icons github' onClick={() => window.open("https://github.com/aniruddha76")}>
-                  <img src="./src/assets/images/socials/github.png" alt="ani-github" />
-              </div>
-
-              <div className='icons discord' onClick={() => window.open("https://discordapp.com/users/raptor1570")}>
-                  <img src="./src/assets/images/socials/discord.png" alt="ani-discord" />
-              </div>
-
-              <div className='icons email' onClick={() => open('aniruddhathakur76@gmail.com')}>
-                  <img src="./src/assets/images/socials/email.png" alt="ani-email" />
-              </div>
-
+            <div className='icons instagram' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
+              <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
             </div>
+
+            <div className='icons linkedin' onClick={() => window.open("https://www.linkedin.com/in/aniruddha-thakur-b36482259/")}>
+              <img src="./src/assets/images/socials/linkedin.png" alt="ani-linkedin" />
+            </div>
+
+            <div className='icons github' onClick={() => window.open("https://github.com/aniruddha76")}>
+              <img src="./src/assets/images/socials/github.png" alt="ani-github" />
+            </div>
+
+            <div className='icons discord' onClick={() => window.open("https://discordapp.com/users/raptor1570")}>
+              <img src="./src/assets/images/socials/discord.png" alt="ani-discord" />
+            </div>
+
+            <div className='icons email' onClick={() => open('aniruddhathakur76@gmail.com')}>
+              <img src="./src/assets/images/socials/email.png" alt="ani-email" />
+            </div>
+
           </div>
-          <div className='footer h-24 flex justify-center items-center w-full'>
-              <p>Made with &lt;/&gt; by Aniruddha Thakur &copy; TwentyTwentyFour</p>
-          </div>
+        </div>
+        
+        <div className='footer h-24 flex justify-center items-center w-full'>
+          <p>Made with &lt;/&gt; by Aniruddha Thakur &copy; TwentyTwentyFour</p>
+        </div>
 
       </div>
     </div>

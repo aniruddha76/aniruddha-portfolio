@@ -37,6 +37,8 @@ html{
 }
 
 .tooltip .tooltiptext {
+  font-family: Roboto Condensed,Lato,Arial,sans-serif;
+  font-weight: 500;
   visibility: hidden;
   width: 120px;
   background-color:#212135;
@@ -46,10 +48,9 @@ html{
   padding: 5px 0;
   border: 1px solid;
   border-color: #24292e;
-
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  transform: translateY(8px);
 }
 
 .tooltip:hover .tooltiptext {
@@ -239,6 +240,11 @@ html{
   background-color: #cf59e6;
   box-shadow: 0 4px 20px rgba(207, 89, 230, 0.6);
 }
+
+/* .sendbutton{
+  background-color: #8000ff;
+  float: right;
+} */
 
 .footer{
   font-family: Roboto Condensed,Lato,Arial,sans-serif;
