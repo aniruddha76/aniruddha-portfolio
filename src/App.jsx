@@ -146,6 +146,7 @@ function App() {
               <div id='row-1' className='flex justify-evenly py-14'>
                 <div id='image-container' className='h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/html.png" />
+                  {/* <center><p id='logo-name'>HTML</p></center> */}
                 </div>
 
                 <div id='image-container' className='h-40 w-40 p-5'>
