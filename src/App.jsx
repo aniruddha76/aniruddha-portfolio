@@ -307,7 +307,7 @@ function App() {
         }}>CONTACT</section>
 
         <div id='socials' className='flex flex-col justify-end'>
-          <div className='flex justify-center' style={{ paddingTop: "4rem", zIndex: 1, gap: "30px" }}>
+          <div className='py-28 flex justify-center' style={{ zIndex: 1, gap: "30px" }}>
 
             <div className='icons instagram' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
               <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
@@ -331,7 +331,7 @@ function App() {
 
           </div>
         </div>
-        
+
         <div className='footer h-24 flex justify-center items-center w-full'>
           <p>Made with &lt;/&gt; by Aniruddha Thakur &copy; TwentyTwentyFour</p>
         </div>
