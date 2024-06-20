@@ -290,10 +290,37 @@ function App() {
           }}>CONTACT</section>
 
           <div id='socials' className='flex justify-center'>
-            <div className='py-10 flex justify-evenly'>
+            <div className='py-10 flex justify-center' style={{zIndex: 1,gap: "30px"}}>
               
+              <div className='icons' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
+                  <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
+              </div>
+
+              <div className='icons'>
+                <a href="https://www.instagram.com/aniiruddhaa_/">
+                  <img src="./src/assets/images/socials/linkedin.png" alt="" />
+                </a>
+              </div>
+
+              <div className='icons'>
+                <a href="https://www.instagram.com/aniiruddhaa_/">
+                  <img src="./src/assets/images/socials/github.png" alt="" />
+                </a>
+              </div>
+
+              <div className='icons'>
+                <a href="https://www.instagram.com/aniiruddhaa_/">
+                  <img src="./src/assets/images/socials/email.png" alt="" />
+                </a>
+              </div>
+
+              <div className='icons'>
+                <a href="https://www.instagram.com/aniiruddhaa_/">
+                  <img src="./src/assets/images/socials/discord.png" alt="" />
+                </a>
+              </div>
+
             </div>
-              
           </div>
       </div>
     </div>

@@ -177,3 +177,17 @@ html{
 .letsTalkBtn:active .letsTalkBtn-BG {
   transform: translateY(-7px) translateX(-7px);
 }
+
+.icons{
+  width: 4.8%;
+  padding: 18px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.icons:hover{
+  transform: translateY(-15px);
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
