@@ -10,11 +10,11 @@ function App() {
         <div className="text-white"></div>
 
         <ul className='flex flex-row text-white'>
-          <li className='px-2'><a href='#start'>Start<span> /></span></a></li>
-          <li className='px-2'><a href='#work'>Projects<span> /></span></a></li>
-          <li className='px-2'><a href='#tech-stack'>Tech Stack<span> /></span></a></li>
-          <li className='px-2'><a href='#about'>About<span> /></span></a></li>
-          <li className='px-2'><a href='#contact'>Contact<span> /></span></a></li>
+          <li className='px-2'><a href='#start'>Start<span className='nav-span'> /></span></a></li>
+          <li className='px-2'><a href='#work'>Projects<span className='nav-span'> /></span></a></li>
+          <li className='px-2'><a href='#tech-stack'>Tech Stack<span className='nav-span'> /></span></a></li>
+          <li className='px-2'><a href='#about'>About<span className='nav-span'> /></span></a></li>
+          <li className='px-2'><a href='#contact'>Contact<span className='nav-span'> /></span></a></li>
         </ul>
 
       </nav>
@@ -277,8 +277,24 @@ function App() {
         </div>
       </div>
 
-      <div id='contact' className='min-h-dvh flex justify-center' style={{backgroundColor: "#0c0a12"}}>
-          
+      <div id='contact' className='min-h-dvh' style={{backgroundColor: "#0c0a12"}}>
+          <section style={{
+            color: '#221d35',
+            content: '"TEHSTACK"',
+            fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif',
+            fontSize: '140px',
+            fontWeight: 700,
+            paddingLeft: "155%",
+            position: 'absolute',
+            transform: 'translateX(-50%)'
+          }}>CONTACT</section>
+
+          <div id='socials' className='flex justify-center'>
+            <div className='py-10 flex justify-evenly'>
+              
+            </div>
+              
+          </div>
       </div>
     </div>
   )
