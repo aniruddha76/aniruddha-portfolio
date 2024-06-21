@@ -1,5 +1,4 @@
 import './App.css'
-import MyCodeBlock from './assets/components/Code'
 
 function App() {
 
