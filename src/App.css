@@ -241,6 +241,17 @@ html{
   box-shadow: 0 4px 20px rgba(207, 89, 230, 0.6);
 }
 
+.send-btn{
+  background-color: #8000ff;
+  transition: .3s;
+}
+
+.send-btn:hover{
+  scale: 1.1;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(207, 89, 230, 0.6);
+}
+
 .footer{
   font-family: Roboto Condensed,Lato,Arial,sans-serif;
   background-color: black; 

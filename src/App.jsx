@@ -307,28 +307,56 @@ function App() {
         }}>CONTACT</section>
 
         <div id='socials' className='flex flex-col justify-end'>
-          <div className='py-28 flex justify-center' style={{ zIndex: 1, gap: "30px" }}>
+          <div className='flex justify-center' style={{paddingTop: "4rem", zIndex: 1, gap: "30px" }}>
 
-            <div className='icons instagram' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/")}>
+            <div className='icons instagram' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/", '_blank')}>
               <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
             </div>
 
-            <div className='icons linkedin' onClick={() => window.open("https://www.linkedin.com/in/aniruddha-thakur-b36482259/")}>
+            <div className='icons linkedin' onClick={() => window.open("https://www.linkedin.com/in/aniruddha-thakur-b36482259/", '_blank')}>
               <img src="./src/assets/images/socials/linkedin.png" alt="ani-linkedin" />
             </div>
 
-            <div className='icons github' onClick={() => window.open("https://github.com/aniruddha76")}>
+            <div className='icons github' onClick={() => window.open("https://github.com/aniruddha76", '_blank')}>
               <img src="./src/assets/images/socials/github.png" alt="ani-github" />
             </div>
 
-            <div className='icons discord' onClick={() => window.open("https://discordapp.com/users/raptor1570")}>
+            <div className='icons discord' onClick={() => window.open("https://discordapp.com/users/raptor1570", '_blank')}>
               <img src="./src/assets/images/socials/discord.png" alt="ani-discord" />
             </div>
 
-            <div className='icons email' onClick={() => open('aniruddhathakur76@gmail.com')}>
+            <div className='icons email' onClick={() => open('mailto:aniruddhathakur76@gmail.com', '_blank')}>
               <img src="./src/assets/images/socials/email.png" alt="ani-email" />
             </div>
 
+          </div>
+        </div>
+
+        <div className='flex justify-center text-white py-4' style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif' }}>
+          <div class="flex w-full items-center">
+            <div class="mx-auto w-full max-w-lg form-container">
+              <center><h1 class="text-4xl font-medium">Let's Connect</h1></center>
+
+              <form action="https://api.web3forms.com/submit" method='post' class="mt-10">
+
+                <input type="hidden" name="access_key" value="d3cd45bf-0d18-4988-9798-934bb5293495" />
+                <div class="grid gap-6 sm:grid-cols-2">
+                  <div class="relative z-0">
+                    <input type="text" name="name" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm  focus:border-purple-600 focus:outline-none focus:ring-0" placeholder=" " />
+                    <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-purple-600 peer-focus:dark:text-purple-500">Your name</label>
+                  </div>
+                  <div class="relative z-0">
+                    <input type="text" name="email" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm focus:border-purple-600 focus:outline-none focus:ring-0" placeholder=" " />
+                    <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-purple-600 peer-focus:dark:text-purple-500">Your email</label>
+                  </div>
+                  <div class="relative z-0 col-span-2">
+                    <textarea name="message" rows="3" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm focus:border-purple-600 focus:outline-none focus:ring-0" placeholder=" "></textarea>
+                    <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-purple-600 peer-focus:dark:text-purple-500">Your message</label>
+                  </div>
+                </div>
+                <center><button type="submit" class="mt-8 rounded-md px-10 py-2 text-white send-btn">Send Message</button></center>
+              </form>
+            </div>
           </div>
         </div>
 
