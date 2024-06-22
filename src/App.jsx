@@ -1,22 +1,12 @@
 import './App.css'
+import Navbar from './assets/components/Navbar'
 
 function App() {
 
   return (
     <div>
-      <nav id="main-nav" class="p-4 flex justify-between absolute top-0 left-0 w-auto sm:w-full text-[22px] font-bold z-[999]" style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif"}}>
 
-        <div className="text-white"></div>
-
-        <ul className='flex flex-row text-white'>
-          <li className='px-2'><a href='#start'>Start<span className='nav-span'> /&gt;</span></a></li>
-          <li className='px-2'><a href='#work'>Projects<span className='nav-span'> /&gt;</span></a></li>
-          <li className='px-2'><a href='#tech-stack'>Tech Stack<span className='nav-span'> /&gt;</span></a></li>
-          <li className='px-2'><a href='#about'>About<span className='nav-span'> /&gt;</span></a></li>
-          <li className='px-2'><a href='#contact'>Contact<span className='nav-span'> /&gt;</span></a></li>
-        </ul>
-
-      </nav>
+      <Navbar />
 
       <header id="start">
         <div className="b-center bg-no-repeat bg-cover min-h-dvh" style={{ backgroundColor: "#11111b" }}>
