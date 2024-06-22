@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div>
-      <nav id="main-nav" class="p-4 flex justify-between absolute top-0 left-0 w-auto sm:w-full" style={{ zIndex: 999, fontFamily: "Roboto Condensed,Lato,Arial,sans-serif", fontSize: "22px", fontWeight: 700 }}>
+      <nav id="main-nav" class="p-4 flex justify-between absolute top-0 left-0 w-auto sm:w-full text-[22px] font-bold z-[999]" style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif"}}>
 
         <div className="text-white"></div>
 
