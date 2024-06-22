@@ -14,6 +14,14 @@ html{
   background-color: #8000ff;
 }
 
+#main-nav{
+  box-shadow: inset 0 35px 13px rgba(14, 12, 22, .85);
+}
+
+.mobile-menu{
+  background-image: linear-gradient(-180deg, #0e0c16, #0e0c16 88%, #0e0c16 99%);
+}
+
 .nav-span{
   font-weight: 700;
   color: #494949
@@ -42,9 +50,8 @@ section{
 }
 
 #contact-section{
-          content: "CONTACT";
-          /* padding-left: 155%; */
-          transform: translateX(-50%)
+  content: "CONTACT";
+  transform: translateX(-50%)
 }
 
 #image-container{
@@ -231,7 +238,6 @@ section{
 }
 
 .icons{
-  width: 4.5%;
   border: 2px solid white;
   border-radius: 50%;
   transition: .3s;
