@@ -10,7 +10,7 @@ function App() {
 
       <header id="start">
         <div className="b-center bg-no-repeat bg-cover min-h-dvh" style={{ backgroundColor: "#11111b" }}>
-          <div className='blob' style={{ height: '500px', width: '600px' }}></div>
+          <div className='hidden sm:block blob h-[500px] w-[600px]'></div>
           <div className='min-h-dvh px-10 sm:px-16 md:px-60 start-container name' style={{ paddingTop: "6rem", paddingBottom: 0 }}>
             <div className='text-white text-2xl sm:text-4xl' style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif" }}>
               <h1>Hey there!, I'm</h1>
