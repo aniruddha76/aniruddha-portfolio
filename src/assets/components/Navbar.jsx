@@ -38,7 +38,7 @@ function Navbar() {
         <nav id="main-nav" className={`p-4 flex justify-between fixed top-0 w-full sm:w-full text-[22px] font-bold z-[999] transition-transform duration-300 ${
                 isScrollingUp ? "transform translate-y-0" : "transform -translate-y-full"
             }`} style={{ fontFamily: "Roboto Condensed,Lato,Arial,sans-serif" }}>
-            <div className="text-white font-[500] flex justify-center items-center">
+            <div className="text-white font-[500] flex justify-center items-center z-[999]">
                 <span className="text-[#5918df] font-[500]">&lt;</span>&nbsp;<div className="text-2xl sm:text-4xl tracking-tighter">AN1RUDDHA</div>&nbsp;<span className="text-[#5918df]">/&gt;</span>
             </div>
 

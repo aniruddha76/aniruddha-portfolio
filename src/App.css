@@ -34,7 +34,7 @@ section{
   position: absolute;
 }
 
-#web{  
+#projects{  
   content: "PROJECTS";
   transform: translateX(-30%);
 }

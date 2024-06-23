@@ -1,5 +1,7 @@
 import './App.css'
+import Contactform from './assets/components/Contactform'
 import Navbar from './assets/components/Navbar'
+import Projects from './assets/components/Projects'
 
 function App() {
 
@@ -41,184 +43,7 @@ function App() {
         </div>
       </header>
 
-      <div style={{ backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
-
-        <section id="web" className='pl-[40%] sm:pl-[50%] md:pl-[97%] text-[80px] sm:text-[100px] md:text-[140px]'>PROJECTS</section>
-
-        <div id='work' className='p-10'>
-
-          <div className="relative sm:flex py-5 sm:py-0">
-            <div className="relative sm:px-14" >
-              <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="sm:h-52 sm:w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
-              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
-                <p>Studios<br />Repo</p>
-                <hr className='bg-white border-[.5px] rounded w-[200px]' />
-                <p className='font-[100]'>01 &rarr;</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="relative sm:flex sm:py-14 justify-end py-10">
-            <div className="relative sm:px-14 sm:pr-[25rem]">
-              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="sm:h-52 w-99 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
-              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
-                <p>Insta<br />Downloader</p>
-                <hr className='bg-white border-[.5px] rounded w-[200px]' />
-                <p className='font-[100]'>02 &rarr;</p>
-              </div>
-            </div>
-
-            <div className="sm:absolute sm:px-14 py-14 sm:py-0 sm:top-0" style={{ zIndex: 2 }}>
-              <img src="./src/assets/images/express-share.jpg" alt="studiosrepo" className="h-52 w-52 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
-              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
-                <p>Express<br />Share</p>
-                <hr className='bg-white border-[.5px] rounded w-[200px]' />
-                <p className='font-[100]'>03 &rarr;</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="relative sm:flex py-3 justify-between" style={{ paddingBottom: '3rem' }}>
-            <div className="relative flex py-5 sm:py-0">
-              <div className="relative sm:px-14">
-                <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
-                <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
-                  <p>Twine<br />Video Calling</p>
-                  <hr className='bg-white border-[.5px] rounded w-[200px]' />
-                  <p className='font-[100]'>04 &rarr;</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative sm:flex py-5 sm:py-0">
-              <div className="relative sm:px-14" style={{ bottom: 0, zIndex: 2 }}>
-                <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
-                <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
-                  <p>BeatBox<br />Discord Bot</p>
-                  <hr className='bg-white border-[.5px] rounded w-[200px]' />
-                  <p className='font-[100]'>05 &rarr;</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='sm:px-40 sm:py-5'>
-            <div className="relative sm:px-14 sm:pr-[25rem]">
-              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="sm:h-52 sm:w-99 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
-              <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
-                <p>Blockify<br />Chrome Extension</p>
-                <hr className='bg-white border-[.5px] rounded w-[200px]' />
-                <p className='font-[100]'>06 &rarr;</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div id='tech-stack'>
-          <section id='techstack' className='pl-[100%] sm:pl-[50%] md:pl-[100%] text-[50px] sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
-
-          <div className='flex justify-center pt-[50px] sm:pt-[140px]'>
-            <div id='tech-stack' className='w-[30rem] sm:w-[60rem]' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", height: "auto", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
-              <div id='row-1' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:py-14'>
-                <div id='image-container' className='tooltip p-5 h-40 w-40'>
-                  <img src="./src/assets/images/logo/html.png" />
-                  <span className='tooltiptext'>HTML</span>
-                </div>
-
-                <div id='image-container' className='tooltip p-5 h-40 w-40'>
-                  <img src="./src/assets/images/logo/css.png" />
-                  <span className='tooltiptext'>CSS</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/js.png" />
-                  <span className='tooltiptext'>JAVASCRIPT</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/bootstraplogo.png" />
-                  <span className='tooltiptext'>BOOTSTRAP</span>
-                </div>
-              </div>
-
-              <div id='rwo-2' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/reactlogo.png" />
-                  <span className='tooltiptext'>REACT</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/nodejs.png" />
-                  <span className='tooltiptext'>NODE JS</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/typescript.png" />
-                  <span className='tooltiptext'>TYPESCRIPT</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/tailwind.png" />
-                  <span className='tooltiptext'>TAILWIND</span>
-                </div>
-              </div>
-
-              <div id='rwo-3' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/express.png" />
-                  <span className='tooltiptext'>EXPRESS JS</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/electronlogo.svg" />
-                  <span className='tooltiptext'>ELECTRON</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/git.png" />
-                  <span className='tooltiptext'>GIT</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/githublogo.png" />
-                  <span className='tooltiptext'>GITHUB</span>
-                </div>
-              </div>
-
-              <div id='rwo-4' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/discord.png" />
-                  <span className='tooltiptext'>DISCORD JS</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/vercel.png" />
-                  <span className='tooltiptext'>VERCEL</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/wordpress.png" />
-                  <span className='tooltiptext'>WORDPRESS</span>
-                </div>
-
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/figma.png" />
-                  <span className='tooltiptext'>FIGMA</span>
-                </div>
-              </div>
-
-              <div id='rwo-5' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
-                <div id='image-container' className='tooltip h-40 w-40 p-5'>
-                  <img src="./src/assets/images/logo/canvalogo.png" />
-                  <span className='tooltiptext'>CANVA</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      <Projects />
 
       <div id='about' style={{ height: "auto" }}>
         <section id="aboutme" className='pr-[5%] sm:pr-[20%] md:pr-[29%] text-[80px] sm:text-[100px] md:text-[140px]'>ABOUTME</section>
@@ -291,33 +116,7 @@ function App() {
           </div>
         </div>
 
-        <div className='flex justify-center text-white' style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif' }}>
-          <div class="flex w-full items-center">
-            <div class="mx-auto w-full max-w-lg form-container">
-              <center><h1 class="text-4xl font-medium">Let's Connect</h1></center>
-
-              <form action="https://api.web3forms.com/submit" method='post' className="sm:mt-10">
-
-                <input type="hidden" name="access_key" value="d3cd45bf-0d18-4988-9798-934bb5293495" />
-                <div class="flex flex-col justify-between p-8 sm:p-0 sm:grid sm:gap-6 sm:grid-cols-2">
-                  <div class="relative z-0 pb-4 sm:pb-0">
-                    <input type="text" name="name" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm  focus:border-purple-600 focus:outline-none focus:ring-0" placeholder=" " />
-                    <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-purple-600 peer-focus:dark:text-purple-500">Your name</label>
-                  </div>
-                  <div class="relative z-0 pb-4 sm:pb-0">
-                    <input type="text" name="email" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm focus:border-purple-600 focus:outline-none focus:ring-0" placeholder=" " />
-                    <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-purple-600 peer-focus:dark:text-purple-500">Your email</label>
-                  </div>
-                  <div class="relative z-0 col-span-2">
-                    <textarea name="message" rows="3" class="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm focus:border-purple-600 focus:outline-none focus:ring-0" placeholder=" "></textarea>
-                    <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-purple-600 peer-focus:dark:text-purple-500">Your message</label>
-                  </div>
-                </div>
-                <center><button type="submit" class="mt-8 rounded-md px-10 py-2 text-white send-btn">Send Message</button></center>
-              </form>
-            </div>
-          </div>
-        </div>
+        <Contactform />
 
         <div className='footer h-24 flex justify-center items-center bg-black text-[#494949] font-medium text-xs sm:text-base'>
           <p>Made with &lt;/&gt; by Aniruddha Thakur &copy; TwentyTwentyFour</p>
