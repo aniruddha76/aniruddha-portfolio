@@ -5,7 +5,7 @@ function Techstack () {
 
           <div className='flex justify-center pt-[50px] sm:pt-[140px]'>
             <div id='tech-stack' className='w-[30rem] sm:w-[60rem]' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", height: "auto", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
-              <div id='row-1' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:py-14'>
+              <div id='row-1' className='grid grid-cols-2 gap-6 sm:gap-0 p-5 sm:p-3 sm:flex sm:flex-row justify-evenly sm:py-14'>
                 <div id='image-container' className='tooltip p-5 h-40 w-40'>
                   <img src="./src/assets/images/logo/html.png" />
                   <span className='tooltiptext'>HTML</span>
@@ -27,7 +27,7 @@ function Techstack () {
                 </div>
               </div>
 
-              <div id='rwo-2' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
+              <div id='rwo-2' className='grid grid-cols-2 pt-1 sm:pt-0 gap-6 sm:gap-0 px-5 sm:px-3 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/reactlogo.png" />
                   <span className='tooltiptext'>REACT</span>
@@ -49,7 +49,7 @@ function Techstack () {
                 </div>
               </div>
 
-              <div id='rwo-3' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
+              <div id='rwo-3' className='grid grid-cols-2 pt-6 sm:pt-0 gap-6 sm:gap-0 px-5 sm:px-3 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/express.png" />
                   <span className='tooltiptext'>EXPRESS JS</span>
@@ -71,7 +71,7 @@ function Techstack () {
                 </div>
               </div>
 
-              <div id='rwo-4' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
+              <div id='rwo-4' className='grid grid-cols-2 pt-7 sm:pt-0 gap-6 sm:gap-0 px-5 sm:px-3 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/discord.png" />
                   <span className='tooltiptext'>DISCORD JS</span>
@@ -93,7 +93,7 @@ function Techstack () {
                 </div>
               </div>
 
-              <div id='rwo-5' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
+              <div id='rwo-5' className='grid grid-cols-2 pt-7 sm:pt-0 gap-6 sm:gap-0 px-5 sm:px-3 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/canvalogo.png" />
                   <span className='tooltiptext'>CANVA</span>

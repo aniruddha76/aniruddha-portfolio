@@ -43,28 +43,28 @@ function Navbar() {
             </div>
 
             <div>
-                <ul className="hidden sm:flex text-white">
-                    <li className="px-2">
+                <ul className="hidden sm:flex text-[#ffffff80]">
+                    <li className="px-2 hover:text-white">
                         <a href="#start" onClick={handleLinkClick}>
                             Start<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="px-2">
+                    <li className="px-2 hover:text-white">
                         <a href="#work" onClick={handleLinkClick}>
                             Projects<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="px-2">
+                    <li className="px-2 hover:text-white">
                         <a href="#tech-stack" onClick={handleLinkClick}>
                             Tech Stack<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="px-2">
+                    <li className="px-2 hover:text-white">
                         <a href="#about" onClick={handleLinkClick}>
                             About<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="px-2">
+                    <li className="px-2 hover:text-white">
                         <a href="#contact" onClick={handleLinkClick}>
                             Contact<span className="nav-span"> /&gt;</span>
                         </a>
@@ -82,28 +82,28 @@ function Navbar() {
                     isMenuOpen ? "max-h-[500px] p-5 shadow-[0 0 50px 80px #0e0c16]" : "max-h-0 p-0"
                 } overflow-hidden`} style={{ boxShadow: isMenuOpen ? "0 0 50px 80px #0e0c16" : "none" }}>
                     
-                <ul className="flex flex-col text-white items-center">
-                    <li className="py-2">
+                <ul className="flex flex-col text-[#ffffff80] items-center">
+                    <li className="py-2 hover:text-white">
                         <a href="#start" onClick={handleLinkClick}>
                             Start<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="py-2">
+                    <li className="py-2 hover:text-white">
                         <a href="#work" onClick={handleLinkClick}>
                             Projects<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="py-2">
+                    <li className="py-2 hover:text-white">
                         <a href="#tech-stack" onClick={handleLinkClick}>
                             Tech Stack<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="py-2">
+                    <li className="py-2 hover:text-white">
                         <a href="#about" onClick={handleLinkClick}>
                             About<span className="nav-span"> /&gt;</span>
                         </a>
                     </li>
-                    <li className="py-2">
+                    <li className="py-2 hover:text-white">
                         <a href="#contact" onClick={handleLinkClick}>
                             Contact<span className="nav-span"> /&gt;</span>
                         </a>
