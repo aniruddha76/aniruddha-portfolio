@@ -142,7 +142,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-2' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly' style={{ paddingBottom: '3.5rem' }}>
+              <div id='rwo-2' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/reactlogo.png" />
                   <span className='tooltiptext'>REACT</span>
@@ -164,7 +164,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-3' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly' style={{ paddingBottom: '3.5rem' }}>
+              <div id='rwo-3' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/express.png" />
                   <span className='tooltiptext'>EXPRESS JS</span>
@@ -186,7 +186,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-4' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly' style={{ paddingBottom: '3.5rem' }}>
+              <div id='rwo-4' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/discord.png" />
                   <span className='tooltiptext'>DISCORD JS</span>
@@ -208,7 +208,7 @@ function App() {
                 </div>
               </div>
 
-              <div id='rwo-5' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly' style={{ paddingBottom: '3.5rem' }}>
+              <div id='rwo-5' className='p-5 sm:p-0 sm:flex sm:flex-row justify-evenly sm:pb-[3.5rem]'>
                 <div id='image-container' className='tooltip h-40 w-40 p-5'>
                   <img src="./src/assets/images/logo/canvalogo.png" />
                   <span className='tooltiptext'>CANVA</span>
