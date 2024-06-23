@@ -47,62 +47,68 @@ function App() {
 
         <div id='work' className='p-10'>
 
-          <div className="relative sm:flex">
-            <div className="relative px-14" >
-              <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
+          <div className="relative sm:flex py-5 sm:py-0">
+            <div className="relative sm:px-14" >
+              <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="sm:h-52 sm:w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Studios<br />Repo</p>
-                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                <hr className='bg-white border-[.5px] rounded w-[200px]' />
+                <p className='font-[100]'>01 &rarr;</p>
               </div>
             </div>
           </div>
 
-          <div className="relative sm:flex py-14 justify-end">
-            <div className="relative px-14 sm:pr-[25rem]">
-              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="h-52 w-99 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
+          <div className="relative sm:flex sm:py-14 justify-end py-10">
+            <div className="relative sm:px-14 sm:pr-[25rem]">
+              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="sm:h-52 w-99 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Insta<br />Downloader</p>
-                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                <hr className='bg-white border-[.5px] rounded w-[200px]' />
+                <p className='font-[100]'>02 &rarr;</p>
               </div>
             </div>
 
-            <div className="absolute px-14" style={{ top: 0, zIndex: 2 }}>
+            <div className="sm:absolute sm:px-14 py-14 sm:py-0 sm:top-0" style={{ zIndex: 2 }}>
               <img src="./src/assets/images/express-share.jpg" alt="studiosrepo" className="h-52 w-52 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Express<br />Share</p>
-                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                <hr className='bg-white border-[.5px] rounded w-[200px]' />
+                <p className='font-[100]'>03 &rarr;</p>
               </div>
             </div>
           </div>
 
           <div className="relative sm:flex py-3 justify-between" style={{ paddingBottom: '3rem' }}>
-            <div className="relative flex">
-              <div className="relative px-14">
+            <div className="relative flex py-5 sm:py-0">
+              <div className="relative sm:px-14">
                 <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
                 <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                   <p>Twine<br />Video Calling</p>
-                  <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                  <hr className='bg-white border-[.5px] rounded w-[200px]' />
+                  <p className='font-[100]'>04 &rarr;</p>
                 </div>
               </div>
             </div>
 
-            <div className="relative sm:flex">
-              <div className="relative px-14" style={{ bottom: 0, zIndex: 2 }}>
+            <div className="relative sm:flex py-5 sm:py-0">
+              <div className="relative sm:px-14" style={{ bottom: 0, zIndex: 2 }}>
                 <img src="./src/assets/images/studiosrepo.jpeg" alt="studiosrepo" className="h-52 w-96 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
                 <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                   <p>BeatBox<br />Discord Bot</p>
-                  <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                  <hr className='bg-white border-[.5px] rounded w-[200px]' />
+                  <p className='font-[100]'>05 &rarr;</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className='sm:px-40 py-5'>
+          <div className='sm:px-40 sm:py-5'>
             <div className="relative sm:px-14 sm:pr-[25rem]">
-              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="h-52 w-99 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
+              <img src="./src/assets/images/instadownloader.png" alt="studiosrepo" className="sm:h-52 sm:w-99 brightness-75" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Blockify<br />Chrome Extension</p>
-                <hr style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700 }} />
+                <hr className='bg-white border-[.5px] rounded w-[200px]' />
+                <p className='font-[100]'>06 &rarr;</p>
               </div>
             </div>
           </div>
