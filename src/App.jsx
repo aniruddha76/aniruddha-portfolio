@@ -53,7 +53,7 @@ function App() {
             <div className='p-6' style={{ zIndex: 1 }}>
               <div id='border-class' className='flex flex-col sm:flex-row p-4'>
                 <div className='sm:w-[290px] z=[4]'>
-                  <img id='profile' src="./src/assets/images/profile/aniruddha.jpg" alt="aniruddha-thakur-profile" />
+                  <img id='profile' src="/profile/aniruddha.jpg" alt="aniruddha-thakur-profile" />
                 </div>
 
                 <div className='text-white text-xl pt-4 sm:pt-0 sm:pl-[3rem] sm:w-[500px]' style={{ zIndex: 4, fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 400 }}>
@@ -94,23 +94,23 @@ function App() {
           <div className='flex justify-center gap-[10px] sm:gap-[30px] px-[2rem] sm:px-0 pt-[4rem] z-[1]'>
 
             <div className='icons instagram p-[10px] sm:p-[16px] sm:w-[4.5%]' onClick={() => window.open("https://www.instagram.com/aniiruddhaa_/", '_blank')}>
-              <img id="instagram" src="./src/assets/images/socials/instagram.png" alt="ani-instagram" />
+              <img id="instagram" src="/socials/instagram.png" alt="ani-instagram" />
             </div>
 
             <div className='icons linkedin p-[10px] sm:p-[16px] sm:w-[4.5%]' onClick={() => window.open("https://www.linkedin.com/in/aniruddha-thakur-b36482259/", '_blank')}>
-              <img src="./src/assets/images/socials/linkedin.png" alt="ani-linkedin" />
+              <img src="/socials/linkedin.png" alt="ani-linkedin" />
             </div>
 
             <div className='icons github p-[10px] sm:p-[16px] sm:w-[4.5%]' onClick={() => window.open("https://github.com/aniruddha76", '_blank')}>
-              <img src="./src/assets/images/socials/github.png" alt="ani-github" />
+              <img src="/socials/github.png" alt="ani-github" />
             </div>
 
             <div className='icons discord p-[10px] sm:p-[16px] sm:w-[4.5%]' onClick={() => window.open("https://discordapp.com/users/raptor1570", '_blank')}>
-              <img src="./src/assets/images/socials/discord.png" alt="ani-discord" />
+              <img src="/socials/discord.png" alt="ani-discord" />
             </div>
 
             <div className='icons email p-[10px] sm:p-[16px] sm:w-[4.5%]' onClick={() => open('mailto:aniruddhathakur76@gmail.com', '_blank')}>
-              <img src="./src/assets/images/socials/email.png" alt="ani-email" />
+              <img src="/socials/email.png" alt="ani-email" />
             </div>
 
           </div>
