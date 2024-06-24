@@ -57,7 +57,7 @@ function Projects () {
 
             <div className="relative sm:flex py-5 sm:py-0">
               <div className="relative sm:px-14 cursor-pointer" style={{ bottom: 0, zIndex: 2 }} onClick={() => window.open('https://github.com/aniruddha76/Beatbox')}>
-                <img src="/studiosrepo.jpeg" alt="beatbox-discord" className="h-52 w-96 brightness-50" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
+                <img src="/beatbox.jpg" alt="beatbox-discord" className="h-52 w-96 brightness-50" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
                 <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                   <p>BeatBox</p>
                   <p className="font-[300]">Discord Music Application <br />Using Discord.JS</p>
@@ -70,7 +70,7 @@ function Projects () {
 
           <div className='sm:px-40 pt-5 sm:py-5'>
             <div className="relative sm:px-14 sm:pr-[25rem] cursor-pointer" onClick={() => window.open('https://github.com/aniruddha76/Blockify')}>
-              <img src="/instadownloader.png" alt="blockyfy" className="sm:h-52 sm:w-99 brightness-50" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
+              <img src="/blockyfy.png" alt="blockyfy" className="sm:h-52 sm:w-99 brightness-50" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
                 <p>Blockify</p>
                 <p className="font-[300]">A Poweful Ad blocker<br />Chrome Extension</p>
