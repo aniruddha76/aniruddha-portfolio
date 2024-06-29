@@ -31,27 +31,29 @@ section{
   color: #221d35;
   font-family: Roboto Condensed,Lato,Arial,sans-serif;
   font-weight: 700;
-  position: absolute;
+  position: relative;
 }
 
 #projects{  
   content: "PROJECTS";
-  transform: translateX(-30%);
+  float: right;
 }
 
 #techstack{
   content: "TEHSTACK";
-  transform: translateX(-50%);
+  position: absolute;
 }
 
 #aboutme{
   content: "ABOUTME";
-  transform: translateX(-40%) rotate(-90deg)
+  transform: translateX(-90%) rotate(-90deg);
+  position: absolute;
 }
 
 #contact-section{
   content: "CONTACT";
-  transform: translateX(-50%)
+  position: absolute;
+  right: 0;
 }
 
 #image-container{

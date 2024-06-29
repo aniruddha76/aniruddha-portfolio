@@ -4,7 +4,7 @@ function Projects () {
     return (
         <div style={{ backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
 
-        <section id="projects" className='pl-[40%] sm:pl-[50%] md:pl-[97%] text-[80px] sm:text-[100px] md:text-[140px]'>PROJECTS</section>
+        <section id="projects" className='text-[80px] sm:text-[100px] md:text-[140px]'>PROJECTS</section>
 
         <div id='work' className='p-10'>
 

@@ -1,7 +1,7 @@
 function Techstack () {
     return(
         <div id='tech-stack'>
-          <section id='techstack' className='pl-[100%] sm:pl-[50%] md:pl-[100%] text-[50px] sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
+          <section id='techstack' className='pl-[17%] sm:pl-[25%] text-[50px] sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
 
           <div className='flex justify-center pt-[50px] sm:pt-[140px]'>
             <div id='tech-stack' className='w-[30rem] sm:w-[60rem]' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", height: "auto", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
