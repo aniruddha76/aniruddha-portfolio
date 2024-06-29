@@ -3,7 +3,7 @@ function Techstack () {
         <div id='tech-stack'>
           
           <center>
-            <section id='techstack' className='sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
+            <section id='techstack' className='text-[70px] sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
           </center>
 
           <div className='flex justify-center'>
