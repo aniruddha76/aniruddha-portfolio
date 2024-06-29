@@ -1,9 +1,12 @@
 function Techstack () {
     return(
         <div id='tech-stack'>
-          <section id='techstack' className='pl-[17%] sm:pl-[25%] text-[50px] sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
+          
+          <center>
+            <section id='techstack' className='sm:text-[100px] md:text-[140px]'>TECHSTACK</section>
+          </center>
 
-          <div className='flex justify-center pt-[50px] sm:pt-[140px]'>
+          <div className='flex justify-center'>
             <div id='tech-stack' className='w-[30rem] sm:w-[60rem]' style={{ zIndex: 5, boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)", height: "auto", backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
               <div id='row-1' className='grid grid-cols-2 gap-6 sm:gap-0 p-5 sm:p-3 sm:flex sm:flex-row justify-evenly sm:py-14'>
                 <div id='image-container' className='tooltip p-5 h-40 w-40'>

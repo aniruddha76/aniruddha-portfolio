@@ -11,18 +11,12 @@ function About () {
                   <img id='profile' src="/profile/aniruddha.jpg" alt="aniruddha-thakur-profile" />
                 </div>
 
-                <div className='text-white text-xl pt-4 sm:pt-0 sm:pl-[3rem] sm:w-[500px]' style={{ zIndex: 4, fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 400 }}>
-                  <p>
-                    Hello! I'm Aniruddha Thakur, a passionate web developer and designer who thrives on creating stunning and intuitive frontend designs.
-                  </p><br />
-                  <p>
-                    My journey in the digital world began with a fascination for how design and code can come together to create seamless user experiences.
-                  </p>
+                <div className='text-white text-xl pt-4 sm:pt-0 sm:pl-[3rem] sm:w-[300px] md:w-[450px]' style={{ zIndex: 4, fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 400 }}>
+                  <p>Hello! I'm Aniruddha Thakur, a passionate web developer and designer who thrives on creating stunning and intuitive frontend designs.</p>
                   <br />
-                  <p>
-                    As a web developer, I meticulously craft responsive and efficient code that brings my designs to life.
-                    My goal is to make every website not only look fantastic but also function flawlessly.
-                  </p>
+                  <p>My journey in the digital world began with a fascination for how design and code can come together to create seamless user experiences.</p>
+                  <br />
+                  <p>As a web developer, I meticulously craft responsive and efficient code that brings my designs to life. My goal is to make every website not only look fantastic but also function flawlessly.</p>
                 </div>
               </div>
 

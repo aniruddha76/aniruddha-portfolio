@@ -1,6 +1,6 @@
 function Contactform() {
     return(
-        <div className='flex justify-center text-white' style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif' }}>
+        <div className='flex justify-center text-white z-[1]' style={{ fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif' }}>
           <div class="flex w-full items-center">
             <div class="mx-auto w-full max-w-lg form-container">
               <center><h1 class="text-4xl font-medium">Let's Connect</h1></center>

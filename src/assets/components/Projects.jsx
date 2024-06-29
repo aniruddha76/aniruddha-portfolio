@@ -1,3 +1,4 @@
+import Projectcard from "./Projectcard";
 import Techstack from "./Techstack";
 
 function Projects () {
@@ -6,9 +7,57 @@ function Projects () {
 
         <section id="projects" className='text-[80px] sm:text-[100px] md:text-[140px]'>PROJECTS</section>
 
-        <div id='work' className='p-10'>
+        <div id='work' className='px-10 grid md:grid-cols-3 justify-center gap-5 w-full'>
 
-          <div className="relative pt-20 sm:pt-0 sm:flex py-5 sm:py-0">
+          <Projectcard 
+          image='/studiosrepo.jpeg' 
+          title='Studios Repo' 
+          description='A dynamic and user-friendly application built with React.js and MongoDB, designed to help students efficiently manage and organize their notes.' 
+          live='https://github.com/Bishwajitpvt/StudiousRepo?tab=readme-ov-file#output'
+          code='https://github.com/Bishwajitpvt/StudiousRepo'
+          />
+
+          <Projectcard 
+          image='/instadownloader.png' 
+          title='Insta Downloader' 
+          description='A handy Chrome extension that allows users to effortlessly download Instagram photos and profile pictures.' 
+          live='https://github.com/aniruddha76/insta-downloader/releases'
+          code='https://github.com/aniruddha76/insta-downloader'
+          />
+
+          <Projectcard 
+          image='/express-share.jpg' 
+          title='Express Share' 
+          description='A powerful file-sharing application built with Express.js and Multer, designed for quick and secure file transfers.' 
+          live='https://fileshare-express.vercel.app/'
+          code='https://github.com/aniruddha76/Express-Share'
+          />
+
+          <Projectcard 
+          image='/twine.png' 
+          title='Twine Video Calling' 
+          description='An advanced video calling application developed with JavaScript and WebRTC, offering high-quality, real-time video communication.' 
+          live='https://twine-video-calling.vercel.app/'
+          code='https://github.com/aniruddha76/twine-video-calling'
+          />
+
+          <Projectcard 
+          image='/beatbox.png' 
+          title='Beatbox Discord Bot' 
+          description='An engaging Discord music bot developed with Discord.js, designed to enhance your server experience with music and entertainment.' 
+          live='https://discord.com/oauth2/authorize?client_id=1213534821289033739&permissions=8&scope=bot'
+          code='https://github.com/aniruddha76/Beatbox'
+          />
+
+          <Projectcard 
+          image='/blockyfy.png' 
+          title='Blockyfy' 
+          description='An essential Chrome extension designed to block intrusive ads on websites, enhancing browsing experience. ' 
+          live='https://github.com/aniruddha76/Blockify'
+          code='https://github.com/aniruddha76/Blockify'
+          />
+
+          {/* <div className="relative pt-20 sm:pt-0 sm:flex py-5 sm:py-0">
             <div className="relative sm:px-14 cursor-pointer" onClick={() => window.open('https://github.com/Bishwajitpvt/StudiousRepo')} >
               <img src="/studiosrepo.jpeg" alt="studiosrepo" className="sm:h-52 sm:w-96 brightness-50" style={{ boxShadow: "0 -4px 100px rgba(0, 0, 0, 0.5)" }} />
               <div className="absolute bottom-0 left-0 p-4 text-white" style={{ fontSize: '22px', fontFamily: 'Roboto Condensed,Lato,Arial,sans-serif', fontWeight: 700, textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>
@@ -78,7 +127,7 @@ function Projects () {
                 <p className='font-[100]'>06 &rarr;</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
 
