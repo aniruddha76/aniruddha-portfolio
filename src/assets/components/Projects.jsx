@@ -3,11 +3,11 @@ import Techstack from "./Techstack";
 
 function Projects() {
   return (
-    <div id='work' style={{ backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
+    <div id='work' className='relative' style={{ backgroundImage: "linear-gradient(-180deg, #1a1527, #0e0c16 88%, #0e0c16 99%)" }}>
 
-      <section id="projects" className='text-[80px] sm:text-[100px] md:text-[140px]'>PROJECTS</section>
+      <section id="projects" className='text-[70px] sm:text-[100px] md:text-[140px]'>PROJECTS</section>
 
-      <div className='px-10 grid md:grid-cols-3 justify-center gap-5 w-full'>
+      <div className='px-10 grid md:grid-cols-3 justify-center justify-items-center gap-5 w-full md:px-20'>
 
         <Projectcard
           image='/studiosrepo.jpeg'

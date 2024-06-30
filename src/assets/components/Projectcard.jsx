@@ -1,6 +1,6 @@
 function Projectcard(props) {
     return (
-        <div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-[#0e0e0e] bg-clip-border text-white shadow-lg">
+        <div class="relative flex w-full max-w-[24rem] flex-col rounded-xl bg-[#0e0e0e] bg-clip-border text-white shadow-lg transition-all hover:shadow-2xl hover:-translate-y-4">
             <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
                 <img src={props.image} className="h-[200px] object-cover" />

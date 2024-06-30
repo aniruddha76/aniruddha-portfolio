@@ -36,11 +36,15 @@ section{
 
 #projects{  
   content: "PROJECTS";
-  float: right;
+  /* top: 0;
+  right: 0; */
 }
 
 #techstack{
   content: "TEHSTACK";
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
 
 #aboutme{
